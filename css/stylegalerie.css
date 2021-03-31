@@ -1,0 +1,246 @@
+
+    @font-face {
+    font-family: "Game";
+    src: url("../PolicePersonalisee/Games.ttf") format("truetype");
+}
+    body{
+    
+        font-family:  sans-serif;
+   
+animation: fadeInAnimation ease 4s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+} 
+    }
+
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        z-index: 1000;
+        padding-bottom: 5px;
+        
+    }
+    nav ul{
+        
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: space-between;
+        
+    }
+    nav ul span li{
+        position: relative;
+        
+        padding:8px 5px 8px 5px;
+        border-bottom: 0px solid white;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        border-top: 2px solid white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+        margin-left: 10px;
+    }
+    @keyframes example {
+  0%   {background-color:red; }
+  
+ 
+  100% {background-color:rgb(184, 2, 2);}
+}
+    nav ul span li:hover{
+        border-color: darkgoldenrod;
+        cursor: pointer;
+        background-color: darkgoldenrod;
+    }
+    ul {
+        
+    }
+    nav ul li #logo span.desc{
+        position: relative;
+        top: -20px;
+        font-size: 25px;
+        font-family: "Game",sans-serif;
+    }
+
+    nav ul li #logo span.desc span{
+        position: relative;
+        top: -05px;
+        font-weight: 600;
+        color: darkgoldenrod;
+       
+    }
+    .active{
+       background-color: darkgoldenrod;
+       border-color: darkgoldenrod;
+       
+    }
+    .deroulgame{
+        border-radius: 100%;
+        padding: 7px;
+        border: 3.3px white outset;
+        border-right: 1px solid white;
+        border-top: 1px solid white;
+        padding-right: 9px;
+        padding-top: 9px;
+    }
+    nav ul span li span {
+        border:1.3px dashed white;
+        border-radius: 100px;
+        padding: 4px;
+    }
+    .deroulant:hover{
+        
+        
+    }
+    .sous tr:hover{
+        background-color: rgb(184, 11, 11);
+        border-color: darkgoldenrod;
+        color: white;
+    }
+    .sous a{
+        padding: 4px;
+    }
+    .after{
+  content:'';
+ cursor: default;
+ background-color: white;
+  
+  border-bottom:1px ridge black;
+ 
+}
+.deroul{
+    border: none;
+    margin-bottom: 5px;
+
+}
+.deroulant:hover .sous{
+    display: table;
+    z-index: 1;
+    padding: 5px;
+    
+}
+    .sous
+        {   display: none;
+            padding: 0px;
+            box-shadow: 0px 8px 16px 0px rgba(238, 204, 11, 0.5);
+            max-height: 300px;
+            overflow: auto;
+            background-color: white;
+            color: black;
+            z-index: 50;
+            
+            
+        }
+    #navover{
+        float:right
+    }
+    .deroulant:hover .deroul1{
+       display: none;
+    }
+    .deroulant:hover .deroul2{
+       display:inline;
+       padding: 2px 2px 0px 2px;
+       border: none;
+    }
+    .deroul2{
+        display: none;
+    }
+    #conins{
+
+        border-radius: 5px ;
+        border-bottom:  0px white solid;
+        background-color: rgb(184, 11, 11);
+        border-top: none;
+        border-right: none;
+        font-family: 'Game',sans-serif;
+        border: none;
+        padding-left: 7px;
+        padding-bottom: 3px;
+        margin-right: 5px;
+        
+        
+
+    }
+    nav ul li div a{
+        text-decoration: none;
+        color: white;
+    }
+    figure img:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    figcaption{
+        color: black;
+    }
+    #choix{
+        border-radius: 10px;
+        border:2px solid darkgoldenrod;
+        color: darkgoldenrod;
+        padding: 15px;
+        text-align: center;
+    }
+    #choix span{
+        padding-right: 15px;
+    }
+    #choix span:hover{ 
+
+        cursor: pointer;
+        background-color: darkgoldenrod;
+        color: white;
+        padding: 15px;
+    }
+    .activer{
+        cursor: pointer;
+        background-color: darkgoldenrod;
+        color: white;
+        padding: 15px;
+    }
+    .show{
+        display: none;
+
+    }
+    #navover a{
+        text-decoration: none;
+        color: white;
+    }
+    #navover .sous a{
+        color:black;
+    }
+    #navover .sous a:hover{
+        color:white;
+    }
+ #gd{
+    padding:50px 100px 0px 100px ;margin-top: 50px; color: white;
+ }
+ #gd h1{
+     color: black;
+ }
+ #banniere{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;text-align: center;padding-top: 30px;padding-bottom: 30px;font-family: 'Game';background-color: crimson;font-size: 45px;
+ }
+ #gd table{
+    display: flex;text-align: center; }
+    table figure{
+        max-width:200px;border: 1px solid white; padding: 20px; border-radius: 4px;
+    }
+    table figure p{
+        border-radius: 4px;background-color: green;text-align: center;padding: 10px;
+    }
+    #ps{
+        style=max-width:1000px;border: 1px solid white; padding: 20px; border-radius: 4px;
+    }

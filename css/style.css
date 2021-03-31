@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Game";
+  src: url("../PolicePersonalisee/Games.ttf") format("truetype");
+}
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+      background-color:black;
+      animation: fadeInAnimation ease 4s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+}     }
+    
+    #video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      background:black;
+    }
+    
+    .content {
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.55);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      height:100%;
+      font-family: "Game",sans-serif;
+    }
+    a{
+        border:5px solid rgb(184, 11, 11);
+        padding: 7px;
+        background-color: rgb(184, 11, 11);
+        color: white;
+        border-radius: 5px;
+        font-size: 30px;
+        text-decoration: none;
+        position: relative;
+        top: 5px;
+    
+    }
+    #bouton {
+      width: 100px;
+      font-size: 18px;
+      padding: 10px 2px 10px 2px;
+      border: none;
+      background:darkgoldenrod;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      top: 100px;
+    }
+    
+    #bouton:hover {
+      background: #ddd;
+      color: black;
+    }
+
+
+    div div h1{
+        font-size: 80px;
+        position: relative;
+        top: 50px;
+    }
+
+    div div h1 span{
+        color: darkgoldenrod;
+        position: relative;
+        top: -10px;
+    }

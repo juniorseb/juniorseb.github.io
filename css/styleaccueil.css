@@ -1,0 +1,239 @@
+
+    @font-face {
+    font-family: "Game";
+    src: url("../PolicePersonalisee/Games.ttf") format("truetype");
+}
+    body{
+    
+        font-family:  sans-serif;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8)),
+                  url("../images/fond.gif");
+                  background-repeat:no-repeat;
+                  
+                  
+                  background-size:cover;        
+animation: fadeInAnimation ease 4s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+} 
+    }
+
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        z-index: 1000;
+        
+    }
+    nav ul{
+        
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: space-between;
+        
+    }
+    nav ul span li{
+        position: relative;
+        
+        padding:8px 5px 8px 5px;
+        border-bottom: 0px solid white;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        border-top: 2px solid white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+        margin-left: 10px;
+    }
+    nav ul span li:hover{
+        border-color: darkgoldenrod;
+        cursor: pointer;
+        background-color: darkgoldenrod;
+    }
+    ul {
+        
+    }
+    nav ul li #logo span.desc{
+        position: relative;
+        top: -20px;
+        font-size: 25px;
+        font-family: "Game",sans-serif;
+    }
+
+    nav ul li #logo span.desc span{
+        position: relative;
+        top: -05px;
+        font-weight: 600;
+        color: darkgoldenrod;
+       
+    }
+    .active{
+       background-color: darkgoldenrod;
+       border-color: darkgoldenrod;
+       
+    }
+    .deroulgame{
+        border-radius: 100%;
+        padding: 7px;
+        border: 3.3px white outset;
+        border-right: 1px solid white;
+        border-top: 1px solid white;
+        padding-right: 9px;
+        padding-top: 9px;
+    }
+    nav ul span li span {
+        border:1.3px dashed white;
+        border-radius: 100px;
+        padding: 4px;
+    }
+    .deroulant:hover{
+        
+        
+    }
+    .sous tr:hover{
+        background-color: rgb(184, 11, 11);
+        border-color: darkgoldenrod;
+        color: white;
+    }
+    .sous a{
+        padding: 4px;
+    }
+    .after{
+  content:'';
+ cursor: default;
+ background-color: white;
+  
+  border-bottom:1px ridge black;
+ 
+}
+.deroul{
+    border: none;
+    margin-bottom: 5px;
+
+}
+.deroulant:hover .sous{
+    display: table;
+    z-index: 1;
+    padding: 5px;
+    
+}
+    .sous
+        {   display: none;
+            padding: 0px;
+            box-shadow: 0px 8px 16px 0px rgba(238, 204, 11, 0.5);
+            max-height: 300px;
+            overflow: auto;
+            background-color: white;
+            color: black;
+            z-index: 50;
+            
+            
+        }
+        #navover .sous a{
+            color:black;
+        }
+        #navover .sous a:hover{
+            color:white;
+        }
+    #navover{
+        float:right
+    }
+    .deroulant:hover .deroul1{
+       display: none;
+    }
+    .deroulant:hover .deroul2{
+       display:inline;
+       padding: 2px 2px 0px 2px;
+       border: none;
+    }
+    .deroul2{
+        display: none;
+    }
+    #conins{
+
+        border-radius: 5px ;
+        border-bottom:  0px white solid;
+        background-color: rgb(184, 11, 11);
+        border-top: none;
+        border-right: none;
+        font-family: 'Game',sans-serif;
+        border: none;
+        padding-left: 7px;
+        padding-bottom: 3px;
+        margin-right: 5px;
+        
+        
+
+    }
+    nav ul li div a{
+        text-decoration: none;
+        color: white;
+    }
+#div11{
+    padding:50px 100px 0px 100px ;margin-top: 50px; color: white;
+}
+#div11 h1{
+    color: white;text-align: center;font-family:sans-serif;
+}
+#div11 h3 span{cursor: pointer;padding: 5px;border-radius: 5px;background-color:darkgoldenrod;color: white;}
+
+.myslide{border: 2px solid red;padding: 2px 2px 40px 0px;background-color:rgba(151, 84, 61, 0.5)}
+
+.slides{max-width:310px;float: right;}
+
+div div h3 a{text-decoration: none;padding: 5px;border-radius: 5px;background-color:dodgerblue;color: white;}
+
+div div marquee table{ display: flex;text-align: center;}
+
+marquee figure{
+    max-width:190px;border: 1px solid white; padding: 20px; border-radius: 4px;
+}
+
+marquee figure p{
+    border-radius: 4px;background-color: green;text-align: center;padding: 10px;
+}
+
+#nd{
+    border-radius: 4px;background-color: darkgoldenrod;text-align: center;padding: 10px;
+}
+
+footer{
+    color:rgb(233, 227, 227);
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+#div11 table.divpart {
+    max-width:310px;float: right; 
+}
+.bl{max-width:310px;float: right; }
+#navover a{
+    text-decoration: none;
+    color: white;
+}
+.id{
+    max-width:400px;float: left; 
+}
+.id2{
+    max-width:400px;float: right; 
+}
+
+.banniere{
+    padding:70px;background-image:url('../images/naruto.png');font-family:'Game';font-size:30px;text-align:center;color:red
+}
+.banniere2{
+    padding:70px;background-image:url('../images/pes2021.png');font-family:'Game';font-size:30px;text-align:center;color:red
+}

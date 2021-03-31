@@ -1,0 +1,225 @@
+
+    @font-face {
+    font-family: "Game";
+    src: url("../PolicePersonalisee/Games.ttf") format("truetype");
+}
+    body{
+    
+        font-family:  sans-serif;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                  url("../images/fond.gif");
+                 
+                  
+                  
+                  background-size:cover;        
+animation: fadeInAnimation ease 4s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+} 
+    }
+
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        z-index: 1000;
+        
+    }
+    nav ul{
+        
+        
+    }
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: space-between;
+        
+    }
+    nav ul span li{
+        position: relative;
+        
+        padding:8px 5px 8px 5px;
+        border-bottom: 0px solid white;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        border-top: 2px solid white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+        margin-left: 10px;
+    }
+    nav ul span li:hover{
+        border-color: darkgoldenrod;
+        cursor: pointer;
+        background-color: darkgoldenrod;
+    }
+    ul {
+        
+    }
+    nav ul li #logo span.desc{
+        position: relative;
+        top: -20px;
+        font-size: 25px;
+        font-family: "Game",sans-serif;
+    }
+
+    nav ul li #logo span.desc span{
+        position: relative;
+        top: -05px;
+        font-weight: 600;
+        color: darkgoldenrod;
+       
+    }
+    .active{
+       background-color: darkgoldenrod;
+       border-color: darkgoldenrod;
+       
+    }
+    .deroulgame{
+        border-radius: 100%;
+        padding: 7px;
+        border: 3.3px white outset;
+        border-right: 1px solid white;
+        border-top: 1px solid white;
+        padding-right: 9px;
+        padding-top: 9px;
+    }
+    nav ul span li span {
+        border:1.3px dashed white;
+        border-radius: 100px;
+        padding: 4px;
+    }
+    .deroulant:hover{
+        
+        
+    }
+    .sous tr:hover{
+        background-color: rgb(184, 11, 11);
+        border-color: darkgoldenrod;
+        color: white;
+    }
+    .sous a{
+        padding: 4px;
+    }
+    .after{
+  content:'';
+ cursor: default;
+ background-color: white;
+  
+  border-bottom:1px ridge black;
+ 
+}
+.deroul{
+    border: none;
+    margin-bottom: 5px;
+
+}
+.deroulant:hover .sous{
+    display: table;
+    z-index: 1;
+    padding: 5px;
+    
+}
+    .sous
+        {   display: none;
+            padding: 0px;
+            box-shadow: 0px 8px 16px 0px rgba(238, 204, 11, 0.5);
+            max-height: 300px;
+            overflow: auto;
+            background-color: white;
+            color: black;
+            z-index: 50;
+            
+            
+        }
+    #navover{
+        float:right
+    }
+    .deroulant:hover .deroul1{
+       display: none;
+    }
+    .deroulant:hover .deroul2{
+       display:inline;
+       padding: 2px 2px 0px 2px;
+       border: none;
+    }
+    .deroul2{
+        display: none;
+    }
+    #conins{
+
+        border-radius: 5px ;
+        border-bottom:  0px white solid;
+        background-color: rgb(184, 11, 11);
+        border-top: none;
+        border-right: none;
+        font-family: 'Game',sans-serif;
+        border: none;
+        padding-left: 7px;
+        padding-bottom: 3px;
+        margin-right: 5px;
+        
+        
+
+    }
+    nav ul li div a{
+        text-decoration: none;
+        color: white;
+    }
+    #navover a{
+        text-decoration: none;
+        color: white;
+    }
+    #navover .sous a{
+        color:black;
+    }
+    #navover .sous a:hover{
+        color:white;
+    }
+    
+
+    form div{
+        font-family: 'Game';
+        box-shadow: 0.2px 2px 1px 0.2px rgba(202, 1, 1, 0.5);
+        padding: 0px;
+        border: 1px solid rgba(202, 134, 6, 0.5);
+        text-align: center;
+        background-color: rgba(202, 134, 6, 0.5);
+        padding-bottom: 20px;
+        border-radius: 10px;;
+        
+    }
+    form div input{
+        
+        border: none;
+        padding:10px;
+        border-radius: 4px;
+        width: 75%;
+        margin-top: 7px;
+        border-radius:5px;
+        ;
+    }
+    form div textarea{
+        
+        border: none;
+        padding:20px;
+        border-radius: 4px;
+        width: 70%;
+        margin-top: 7px;
+        border-radius:5px;
+        ;
+    }
+#fluidimg a img{
+    width: 100%;
+    display: none;
+}
